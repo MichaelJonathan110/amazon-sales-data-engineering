@@ -1,16 +1,16 @@
-﻿Amazon Sales Data Engineering
+### ﻿Amazon Sales Data Engineering
 Project Ujian Akhir Semester (UAS) mata kuliah Data Engineering.
 
-Deskripsi
+## Deskripsi
 Project ini membangun pipeline ETL (Extract, Transform, Load) dari data penjualan e-commerce Amazon. Data mentah dari Kaggle diekstrak, dibersihkan, dan ditransformasi menggunakan Pentaho Data Integration (Spoon & Carte), lalu hasilnya dimuat ke dalam bentuk tabel bersih untuk dianalisis dan divisualisasikan dengan Power BI.
 
-Tujuan project: menghasilkan dataset penjualan yang konsisten dan siap analisis, serta menyajikan insight penjualan (produk terlaris, tren penjualan, distribusi wilayah) melalui dashboard interaktif.
+ Tujuan project: menghasilkan dataset penjualan yang konsisten dan siap analisis, serta menyajikan insight penjualan (produk terlaris, tren penjualan, distribusi wilayah) melalui dashboard interaktif.
 
-Arsitektur / Alur Data
+## Arsitektur / Alur Data
 Kaggle (Amazon Sale Report.csv) | v [ Extract ] Baca CSV mentah | v [ Transform ] Cleaning, normalisasi, agregasi (Pentaho Spoon) | v [ Load ] Simpan hasil ke tabel bersih (Pentaho Carte) | v [ Visualisasi ] Dashboard interaktif (Power BI)
 
 
-## Struktur Project
+### Struktur Project
 
 amazon-sales-data-engineering/ |-- data/ | |-- raw/ # Amazon Sale Report.csv (tidak di-commit) | -- processed/ # hasil transformasi (tidak di-commit) |-- etl/ | |-- extract.ktr # transformasi Pentaho: ekstraksi | |-- transform.ktr # transformasi Pentaho: cleaning & agregasi | -- load.ktr # transformasi Pentaho: load |-- dashboard/ | -- amazon_sales.pbix # dashboard Power BI |-- docs/ | -- laporan.pdf # laporan UAS |-- requirements.txt |-- .gitignore `-- README.md
 
@@ -20,11 +20,11 @@ Power BI — visualisasi & dashboard
 Microsoft Excel / CSV — sumber & pemeriksaan data
 Format data: CSV
 Cara Menjalankan
-1. Prasyarat
+### 1. Prasyarat
 Pentaho Data Integration (Spoon) terpasang
 Power BI Desktop terpasang
 Java Runtime (untuk Pentaho)
-2. Clone repository
+### 2. Clone repository
 git clone https://github.com/MichaelJonathan110/amazon-sales-data-engineering.git
 cd amazon-sales-data-engineering
 
