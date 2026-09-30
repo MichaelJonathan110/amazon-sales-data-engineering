@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.venv/
+venv/
+env/
+# Secrets (JANGAN di-commit)
+.env
+.env.*
+*.pem
+*.key
+credentials.json
+# Jupyter
+.ipynb_checkpoints/
+# Data & output
+*.csv
+*.tsv
+*.parquet
+*.db
+*.sqlite
+data/raw/
+outputs/
+logs/
+*.log
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
