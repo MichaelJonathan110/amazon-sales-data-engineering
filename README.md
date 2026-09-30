@@ -25,7 +25,7 @@ Pentaho Data Integration (Spoon) terpasang
 Power BI Desktop terpasang
 Java Runtime (untuk Pentaho)
 2. Clone repository
-git clone https://github.com/USERNAME/amazon-sales-data-engineering.git
+git clone https://github.com/MichaelJonathan110/amazon-sales-data-engineering.git
 cd amazon-sales-data-engineering
 
 ### 3. Siapkan data
